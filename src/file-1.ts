@@ -1,5 +1,7 @@
-import { sum } from "./file-2";
+export const multiply = async (a: number, b: number) => {
+  if (a === 15) {
+    return a * b;
+  }
 
-export const sumTwice = (a: number, b: number) => {
-  return sum(a, b) + sum(a, b);
+  return a * b;
 };

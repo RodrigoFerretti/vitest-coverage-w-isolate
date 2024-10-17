@@ -8,6 +8,7 @@
     "test": "yarn vitest run --dir ./test --coverage"
   },
   "devDependencies": {
+    "@types/node": "20.14.11",
     "@vitest/coverage-v8": "2.0.3",
     "ts-node-dev": "2.0.0",
     "typescript": "5.5.3",

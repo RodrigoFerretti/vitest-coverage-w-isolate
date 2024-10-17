@@ -3,13 +3,12 @@ import { defineConfig } from "vitest/config";
 export default defineConfig({
   plugins: [
     {
-      name: "setup-files",
-      config: () => ({ test: { setupFiles: ["./test/config.ts"] } }),
+      name: "test",
+      config: () => ({ test: { setupFiles: ["./test/setup.ts"] } }),
     },
   ],
   test: {
     isolate: false,
-    pool: "threads",
     logHeapUsage: true,
     allowOnly: true,
     silent: false,

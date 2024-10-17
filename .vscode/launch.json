@@ -1,0 +1,11 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "run tests",
+            "command": "yarn test",
+            "request": "launch",
+            "type": "node-terminal"
+        }
+    ]
+}
