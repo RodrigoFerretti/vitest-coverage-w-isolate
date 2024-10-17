@@ -6,4 +6,10 @@ describe("Test file 1", () => {
 
     expect(response).toBe(15);
   });
+
+  it("Should run function sucessfully", async () => {
+    const response = await multiply(1, 1);
+
+    expect(response).toBe(1);
+  });
 });
